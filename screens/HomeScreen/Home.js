@@ -7,13 +7,13 @@ import UserList from './HomeComponents/UserList';
 
 import {styles} from './HomeStyles/styles';
 
-const Home = ({navigation}) => {
+const Home = () => {
   return (
     <View style={styles.container}>
       <StatusBar hidden={true} />
       <Logo />
       <SearchBar />
-      <UserList navigation={navigation} />
+      <UserList />
     </View>
   );
 };

@@ -1,10 +1,12 @@
 import React from 'react';
 import {TouchableOpacity, Text} from 'react-native';
 import {styles} from '../DetailStyles/styles';
+import {useNavigation} from '@react-navigation/native';
 
 import Icon from 'react-native-vector-icons/Ionicons';
 
-const ButtonMap = ({navigation, user}) => {
+const ButtonMap = ({user}) => {
+  const navigation = useNavigation();
   return (
     <TouchableOpacity
       style={styles.buttonContainer}

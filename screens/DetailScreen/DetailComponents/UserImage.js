@@ -1,10 +1,12 @@
 import React from 'react';
 import {TouchableOpacity, ImageBackground} from 'react-native';
+import {useNavigation} from '@react-navigation/native';
 
 import Icon from 'react-native-vector-icons/Ionicons';
 import {styles} from '../DetailStyles/styles';
 
-const UserImage = ({user, navigation}) => {
+const UserImage = ({user}) => {
+  const navigation = useNavigation();
   return (
     <TouchableOpacity
       onPress={() =>

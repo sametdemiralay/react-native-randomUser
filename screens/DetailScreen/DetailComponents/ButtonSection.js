@@ -1,14 +1,14 @@
 import React from 'react';
-import {View, Text, TouchableOpacity} from 'react-native';
+import {View} from 'react-native';
 import {styles} from '../DetailStyles/styles';
 
 import ButtonCall from './ButtonCall';
-import ButtonMap from './ButtonMap'
+import ButtonMap from './ButtonMap';
 
-const ButtonSection = ({user, navigation}) => {
+const ButtonSection = ({user}) => {
   return (
     <View style={styles.buttonSectionContainer}>
-      <ButtonMap navigation={navigation} user={user} />
+      <ButtonMap user={user} />
       <ButtonCall user={user.phone} />
     </View>
   );

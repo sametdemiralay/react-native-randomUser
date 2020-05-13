@@ -1,22 +1,22 @@
 import React from 'react';
-import {View, Text, Modal} from 'react-native';
+import {View} from 'react-native';
 import {styles} from './DetailStyles/styles';
 
 import UserImage from './DetailComponents/UserImage';
-import Title from './DetailComponents/Title'
+import Title from './DetailComponents/Title';
 import BackButton from './DetailComponents/BackButton';
 import InformationSection from './DetailComponents/InformationSection';
-import ButtonSection from './DetailComponents/ButtonSection'
+import ButtonSection from './DetailComponents/ButtonSection';
 
-const Detail = ({route, navigation}) => {
+const Detail = ({route}) => {
   const {user} = route.params;
   return (
     <View style={styles.container}>
-      <UserImage user={user} navigation={navigation} />
-      <BackButton navigation={navigation} />
+      <UserImage user={user} />
+      <BackButton />
       <Title />
       <InformationSection user={user} />
-      <ButtonSection navigation={navigation} user={user} />
+      <ButtonSection user={user} />
     </View>
   );
 };

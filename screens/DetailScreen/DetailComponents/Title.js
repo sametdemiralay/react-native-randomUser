@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text} from 'react-native';
+import {Text} from 'react-native';
 import {styles} from '../DetailStyles/styles';
 
 const Title = () => {

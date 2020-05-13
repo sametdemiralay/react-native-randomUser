@@ -1,8 +1,10 @@
 import React from 'react';
 import {Image, Text, TouchableOpacity} from 'react-native';
 import {styles} from '../HomeStyles/styles';
+import {useNavigation} from '@react-navigation/native';
 
-const User = ({navigation, user}) => {
+const User = ({user}) => {
+  const navigation = useNavigation();
   return (
     <TouchableOpacity
       style={styles.userContainer}

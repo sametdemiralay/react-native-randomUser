@@ -1,10 +1,12 @@
 import React from 'react';
-import {View, Text, TouchableOpacity} from 'react-native';
+import {TouchableOpacity} from 'react-native';
+import {useNavigation} from '@react-navigation/native';
 
 import Icon from 'react-native-vector-icons/Ionicons';
 import {styles} from '../DetailStyles/styles';
 
-const BackButton = ({navigation}) => {
+const BackButton = () => {
+  const navigation = useNavigation();
   return (
     <TouchableOpacity
       style={styles.backButton}

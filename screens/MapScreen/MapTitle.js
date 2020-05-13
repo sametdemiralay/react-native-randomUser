@@ -3,8 +3,10 @@ import {View, Text, TouchableOpacity} from 'react-native';
 
 import {styles} from './MapScreenStyles/styles';
 import Icon from 'react-native-vector-icons/Ionicons';
+import {useNavigation} from '@react-navigation/native';
 
-const MapTitle = ({navigation, user}) => {
+const MapTitle = ({user}) => {
+  const navigation = useNavigation();
   return (
     <View style={styles.titleContainer}>
       <TouchableOpacity

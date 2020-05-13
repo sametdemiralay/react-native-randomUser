@@ -18,7 +18,7 @@ export const GlobalProvider = ({children}) => {
 
   useEffect(() => {
     axios
-      .get(`https://randomuser.me/api/?results=20`)
+      .get(`https://randomuser.me/api/?results=5`)
       .then(response => {
         dispatch({type: 'FETCH_SUCCESS', payload: response.data.results});
       })

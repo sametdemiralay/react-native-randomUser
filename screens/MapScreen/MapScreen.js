@@ -1,17 +1,17 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View} from 'react-native';
 import MapView from 'react-native-maps';
 
 import {styles} from './MapScreenStyles/styles';
 import MapTitle from './MapTitle';
 
-const MapScreen = ({navigation, route}) => {
+const MapScreen = ({route}) => {
   const {user} = route.params;
   const userLat = parseInt(user.location.coordinates.latitude);
   const userLong = parseInt(user.location.coordinates.longitude);
   return (
     <View style={styles.container}>
-      <MapTitle navigation={navigation} user={user} />
+      <MapTitle user={user} />
       <View style={styles.mapSection}>
         <MapView
           style={styles.map}
