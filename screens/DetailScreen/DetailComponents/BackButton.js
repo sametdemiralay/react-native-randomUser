@@ -11,7 +11,7 @@ const BackButton = () => {
     <TouchableOpacity
       style={styles.backButton}
       onPress={() => navigation.navigate('home')}>
-      <Icon name="md-arrow-back" size={40} color="#192a56" />
+      <Icon name="md-arrow-back" size={40} color="#5d13e7" />
     </TouchableOpacity>
   );
 };

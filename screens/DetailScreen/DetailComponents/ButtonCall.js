@@ -12,7 +12,7 @@ const ButtonCall = ({user}) => {
       onPress={() => {
         Linking.openURL('tel:' + call);
       }}>
-      <Icon name="md-call" size={25} color="#fbc531" />
+      <Icon name="md-call" size={25} color="#f6f6f6" />
       <Text style={styles.buttonText}>CALL</Text>
     </TouchableOpacity>
   );

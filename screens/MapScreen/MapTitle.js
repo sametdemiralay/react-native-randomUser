@@ -12,7 +12,7 @@ const MapTitle = ({user}) => {
       <TouchableOpacity
         style={styles.backButton}
         onPress={() => navigation.navigate('detail')}>
-        <Icon name="md-arrow-back" size={40} color="#192a56" />
+        <Icon name="md-arrow-back" size={40} color="#5d13e7" />
       </TouchableOpacity>
 
       <Text style={styles.textTitle}>

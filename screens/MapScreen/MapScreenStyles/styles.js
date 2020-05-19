@@ -5,7 +5,7 @@ const {height, width} = Dimensions.get('window');
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fbc531',
+    backgroundColor: '#f6f6f6',
   },
 
   //MapTitle.js
@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
   textTitle: {
     marginHorizontal: width * 0.25,
     fontSize: 21,
-    color: '#192a56',
+    color: '#5d13e7',
     fontFamily: 'Righteous-Regular',
   },
 

@@ -11,7 +11,7 @@ const ButtonMap = ({user}) => {
     <TouchableOpacity
       style={styles.buttonContainer}
       onPress={() => navigation.navigate('map', {user: user})}>
-      <Icon name="md-map" size={25} color="#fbc531" />
+      <Icon name="md-map" size={25} color="#f6f6f6" />
       <Text style={styles.buttonText}>MAP</Text>
     </TouchableOpacity>
   );

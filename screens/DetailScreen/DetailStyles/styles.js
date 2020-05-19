@@ -5,7 +5,7 @@ const {height, width} = Dimensions.get('window');
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fbc531',
+    backgroundColor: '#f6f6f6',
     alignItems: 'center',
   },
 
@@ -28,7 +28,7 @@ export const styles = StyleSheet.create({
 
   //Title.js
   title: {
-    color: '#192a56',
+    color: '#5d13e7',
     fontFamily: 'Righteous-Regular',
     fontSize: 25,
     marginBottom: 21,
@@ -36,7 +36,7 @@ export const styles = StyleSheet.create({
 
   //Information.js
   infoContainer: {
-    backgroundColor: '#192a56',
+    backgroundColor: '#5d13e7',
     width: width * 0.8,
     flexDirection: 'row',
     marginBottom: 10,
@@ -45,7 +45,7 @@ export const styles = StyleSheet.create({
   infoTitleSection: {
     flex: 3,
     alignSelf: 'center',
-    color: '#fbc531',
+    color: '#f6f6f6',
     marginLeft: 10,
     fontFamily: 'Righteous-Regular',
     fontSize: 15,
@@ -53,13 +53,13 @@ export const styles = StyleSheet.create({
   infoIconSection: {
     flex: 1,
     alignSelf: 'center',
-    color: '#fbc531',
+    color: '#f6f6f6',
     marginLeft: 5,
   },
   infoResultSection: {
     flex: 7,
     alignSelf: 'center',
-    color: '#fbc531',
+    color: '#f6f6f6',
     marginLeft: 5,
     fontFamily: 'Righteous-Regular',
     fontSize: 13,
@@ -73,7 +73,7 @@ export const styles = StyleSheet.create({
   buttonContainer: {
     height: 50,
     width: width * 0.35,
-    backgroundColor: '#192a56',
+    backgroundColor: '#5d13e7',
     marginHorizontal: width * 0.05,
     borderRadius: 10,
     justifyContent: 'center',
@@ -81,7 +81,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   buttonText: {
-    color: '#fbc531',
+    color: '#f6f6f6',
     fontFamily: 'Righteous-Regular',
     fontSize: 20,
     marginLeft: 10,

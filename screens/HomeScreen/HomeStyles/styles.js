@@ -5,7 +5,7 @@ const {height, width} = Dimensions.get('window');
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fbc531',
+    backgroundColor: '#f6f6f6',
     alignItems: 'center',
   },
 
@@ -17,7 +17,7 @@ export const styles = StyleSheet.create({
   logoText: {
     fontFamily: 'Monoton-Regular',
     fontSize: 45,
-    color: '#192a56',
+    color: '#5d13e7',
   },
 
   //SearchBar.js
@@ -31,7 +31,7 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 15,
     elevation: 8,
     fontWeight: 'bold',
-    color: '#192a56',
+    color: '#5d13e7',
   },
 
   //UserList.js
@@ -41,7 +41,7 @@ export const styles = StyleSheet.create({
   userContainer: {
     height: height * 0.2,
     width: width * 0.9,
-    backgroundColor: '#192a56',
+    backgroundColor: '#5d13e7',
     marginBottom: 10,
     flexDirection: 'row',
     alignItems: 'center',
@@ -55,7 +55,7 @@ export const styles = StyleSheet.create({
   },
   userText: {
     fontSize: 23,
-    color: '#fbc531',
+    color: '#f6f6f6',
     marginHorizontal: 20,
     fontFamily: 'Righteous-Regular',
   },
